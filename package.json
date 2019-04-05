@@ -1,0 +1,24 @@
+{
+  "name": "rhythm-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node app",
+    "start": "node main"
+  },
+  "author": "Malexion",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^10.0.1",
+    "iterate-js": "^1.0.29",
+    "jsonfile": "^2.4.0",
+    "moment": "^2.19.4",
+    "node-opus": "^0.3.0",
+    "spotify-web-api-node": "^2.3.6",
+    "superagent": "^3.8.2",
+    "superagent-jsonapify": "^1.4.2",
+    "through2": "^2.0.3",
+    "ytdl-core": "^0.20.4"
+  }
+}

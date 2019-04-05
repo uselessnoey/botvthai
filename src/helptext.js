@@ -1,0 +1,27 @@
+
+module.exports = [
+    'วิธีใช้',
+    '1.นำลิ้ง URL ของเพลงที่จะฟัง 2.|p หรือ |เล่น ก็เรียบร้อย',
+    'Help Text Menu :question:',
+    '{0}ping: "ดูสถานะบอท"',
+    '{0}j : "เพื่อเรียกบอทเข้าห้อง"',
+    '{0}fuckoff / ออก : "เพื่อให้บอทออกจากห้อง"',
+    '{0}p / เล่น : "เพื่อให้บอทเล่นเพลง"',
+    '{0}pause / พัก : "เพื่อให้บอทพักการเล่นเพลง"',
+    '{0}r / ต่อ : "เพื่อให้บอทเล่นเพลงที่พักไว้ต่อ"',
+    '{0}time: "เพื่อดูความยาวของเพลงที่เล่น"',
+    '{0}enqueue [type] [url/last fragment]: "เพื่อเพลงเข้าคิวสุดท้าย"',
+    '{0}dequeue [index]: "ลบเพลงออกจากคิว"',
+    '{0}add [type] [url/fragment]: "Alias for enqueue"',
+    '{0}remove [index]: "Alias for dequeue"',
+    '{0}youtube [url/last fragment of url]: "Short alias to enqueue youtube tracks" Ex: {0}youtube (2PD1I5k0-ZY, fxOjcjl3TFU)',
+    '{0}s / ข้าม : "เพื่อข้ามเพลง"',
+    '{0}stop / หยุด : "เพื่อหยุดเล่นเพลงที่เล่นในขณะนี้"',
+    '{0}list / รายชื่อ : "เพื่อแสดงรายชื่อเพลงในคิว"',
+    '{0}move [index of song] [up/down]: "เพื่อเลื่อนคิวเพลง" เช่น: {0}move 4 up',
+    '{0}shuffle: "Shuffle songs in the queue, will stop current song"',
+    '{0}clear: "เคลียร์เพลงในคิว"',
+    '{0}volume [0-100 or nothing] / เสียง [0-100 หรือ ไม่มี ] : "เพื่อเพิ่ม-ลดความดังของเสียง" เช่น: {0}volume 43',
+    '{0}repeat / ซ้ำ : "เล่นเพลงในคิวซ้ำทั้งหมด"',
+    '{0}playlist [save/load/delete/list][playlist name]: Ex: {0}playlist save:Calamity   Ex: {0}playlist load:Calamity'
+].join('\n');
